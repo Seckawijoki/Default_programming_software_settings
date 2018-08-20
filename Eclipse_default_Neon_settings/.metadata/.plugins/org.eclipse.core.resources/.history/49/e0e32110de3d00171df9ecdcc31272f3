@@ -1,0 +1,32 @@
+package TEST;
+
+import java.net.MalformedURLException;
+import java.rmi.Naming;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+
+public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote{
+	
+	public static void main(String[] args) {
+		try {
+			MyRemote service = new MyRemoteImpl();
+			Naming.rebind("RemoteHello", service);
+		
+		} catch (RemoteException | MalformedURLException e) {
+			// TODO 自动生成的 catch 块
+			e.printStackTrace();
+		}
+		
+	}
+	protected MyRemoteImpl() throws RemoteException {
+		super();
+		// TODO 自动生成的构造函数存根
+	}
+
+	@Override
+	public String sayHello() throws RemoteException {
+		// TODO 自动生成的方法存根
+		return "Server says, `Hey`";
+	}
+
+}

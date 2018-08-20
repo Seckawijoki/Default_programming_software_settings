@@ -1,0 +1,19 @@
+import java.awt.Color;
+import java.io.Serializable;
+
+class Point implements Serializable {
+	int x;
+	int y;
+	Color color;
+	int type;
+	int size;
+
+	Point(int x, int y, Color color, int type, int size) {
+		this.x = x;
+		this.y = y;
+		this.color = color;
+		this.type = type;
+		this.size = size;
+	}
+}
+

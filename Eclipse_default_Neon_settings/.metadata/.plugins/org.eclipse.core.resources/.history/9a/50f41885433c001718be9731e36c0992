@@ -1,0 +1,18 @@
+import mvp.DrawingModelImpl;
+import mvp.DrawingPresenterImpl;
+import mvp.DrawingViewImpl;
+
+public class GraphEdit {
+	public static void main(String[] args) {
+		int choice = 0;
+		if (choice == 0){
+		  new PaintBoard("PaintBoard");
+		} else {
+			DrawingPresenterImpl presenter = new DrawingPresenterImpl();
+			presenter.setModel(new DrawingModelImpl());
+			presenter.setView(new DrawingViewImpl());
+			presenter.initiate();
+		}
+		
+	}
+}
