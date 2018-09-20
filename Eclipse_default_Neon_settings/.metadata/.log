@@ -10587,3 +10587,78 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-09-20 23:03:42.788 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data F:\default_programming_software_settings\Eclipse_default_Neon_settings -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-20 23:03:50.693
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-09-20 23:20:46.420 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data F:\default_programming_software_settings\Eclipse_default_Neon_settings -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-20 23:20:51.194
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-09-20 23:28:32.442
+!MESSAGE Full project indexing required:
+  [+] C:\jre1.8.0_171\lib\charsets.jar
+  [+] C:\jre1.8.0_171\lib\ext\access-bridge-64.jar
+  [+] C:\jre1.8.0_171\lib\ext\cldrdata.jar
+  [+] C:\jre1.8.0_171\lib\ext\dnsns.jar
+  [+] C:\jre1.8.0_171\lib\ext\jaccess.jar
+  [+] C:\jre1.8.0_171\lib\ext\jfxrt.jar
+  [+] C:\jre1.8.0_171\lib\ext\localedata.jar
+  [+] C:\jre1.8.0_171\lib\ext\nashorn.jar
+  [+] C:\jre1.8.0_171\lib\ext\sunec.jar
+  [+] C:\jre1.8.0_171\lib\ext\sunjce_provider.jar
+  [+] C:\jre1.8.0_171\lib\ext\sunmscapi.jar
+  [+] C:\jre1.8.0_171\lib\ext\sunpkcs11.jar
+  [+] C:\jre1.8.0_171\lib\ext\zipfs.jar
+  [+] C:\jre1.8.0_171\lib\jce.jar
+  [+] C:\jre1.8.0_171\lib\jfr.jar
+  [+] C:\jre1.8.0_171\lib\jsse.jar
+  [+] C:\jre1.8.0_171\lib\resources.jar
+  [+] C:\jre1.8.0_171\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 4 2 2018-09-20 23:28:40.325
+!MESSAGE An error occurred while accessing the type hierarchy of type ‘<anonymous> (not open) [in Axis$2.class [in javafx.scene.chart [in C:\jre1.8.0_171\lib\ext\jfxrt.jar]]]’.
+!STACK 1
+Java Model Exception: Java Model Status [<anonymous> [in Axis$2.class [in javafx.scene.chart [in C:\jre1.8.0_171\lib\ext\jfxrt.jar]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:786)
+	at org.eclipse.jdt.internal.core.BinaryType.newSupertypeHierarchy(BinaryType.java:826)
+	at org.eclipse.jdt.internal.core.BinaryType.newSupertypeHierarchy(BinaryType.java:778)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.indexType(ProjectTypesIndex.java:409)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.rebuildRoot(ProjectTypesIndex.java:358)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.rebuild(ProjectTypesIndex.java:345)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex$2.doRun(ProjectTypesIndex.java:321)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex$2.run(ProjectTypesIndex.java:312)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-09-20 23:28:40.326
+!MESSAGE <anonymous> [in Axis$2.class [in javafx.scene.chart [in C:\jre1.8.0_171\lib\ext\jfxrt.jar]]] does not exist

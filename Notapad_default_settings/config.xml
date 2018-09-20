@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="1" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no">
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
@@ -22,16 +22,19 @@
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
-        <Find name="del csvdef" />
-        <Find name="fileSkipPngs" />
-        <Find name="batchZipConfuse" />
-        <Find name="%confuseCount%" />
-        <Find name="confuseCountOfPvrFiles" />
-        <Find name="confuseCountOfKtxFiles" />
-        <Find name="confuseCountOfOmodFiles" />
-        <Find name="confuseCountOfOggFiles" />
-        <Find name="confuseCountOfPngFiles" />
-        <Find name="confuseCountOfLuaFiles" />
+        <Find name="&#x6D4B;&#x8BD5;&#x670D;&#x4E0D;&#x63D0;&#x4F9B;&#x5145;&#x503C;" />
+        <Find name="&#x60A8;&#x7684;&#x6E38;&#x620F;&#x7248;&#x672C;" />
+        <Find name="tiantian" />
+        <Find name="KuaiKan" />
+        <Find name="TalkingDataGA" />
+        <Find name="TalkingDataGA.init" />
+        <Find name="Oppo" />
+        <Find name="appid" />
+        <Find name="&#x5931;&#x8D25;" />
+        <Find name="&#x662F;&#x5427;" />
+        <Replace name='.java&quot;' />
+        <Replace name='set &quot;arrayFileList=!arrayFileList! ' />
+        <Replace name="set arrayFileList=!arrayFileList! " />
         <Replace name="del /q csvdef" />
         <Replace name="!confuseCount!" />
         <Replace name="confuseCount" />
@@ -39,23 +42,22 @@
         <Replace name="integrate res" />
         <Replace name="mStartTime" />
         <Replace name="mEndTime" />
-        <Replace name="mStartTimeNdkBuild" />
-        <Replace name="so files" />
-        <Replace name="assets" />
     </FindHistory>
+    <FileBrowser latestSelectedItem="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2">
+        <root foldername="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2" />
+    </FileBrowser>
     <History nbMaxFile="12" inSubMenu="no" customLength="-1">
-        <File filename="F:\trunk\Miniworld_projects\client\AppPlay\ApkBuilderScripts\automatic_build\ndk_build.bat" />
-        <File filename="F:\trunk\Miniworld_projects\client\AppPlay\ApkBuilderScripts\automatic_build\automatic_build_all_channels.bat" />
-        <File filename="F:\trunk\Miniworld_projects\client\AppPlay\ApkBuilderScripts\automatic_build\automatic_build_copy_assets_to_backup.bat" />
-        <File filename="F:\trunk\Miniworld_projects\client\AppPlay\ApkBuilderScripts\automatic_build\automatic_build_copy_so_files_to_backup.bat" />
-        <File filename="F:\trunk\Miniworld_projects\client\AppPlay\ApkBuilderScripts\automatic_build\automatic_build_pngquant_1_deleting_png.bat" />
-        <File filename="F:\trunk\env2\client\AppPlay\Proj.Android.MiniBeta\AndroidManifest.xml" />
-        <File filename="F:\trunk\Miniworld_projects\build\clean_imag_android.bat" />
-        <File filename="F:\trunk\Miniworld_projects\client\AppPlay\ApkBuilderScripts\automatic_build\seckawijoki_start_env2.bat" />
-        <File filename="F:\trunk\Miniworld_projects\client\AppPlay\ApkBuilderScripts\automatic_build\automatic_build_copy_so_files_from_obj_local_to_libs.bat" />
-        <File filename="F:\trunk\Miniworld_projects\client\AppPlay\ApkBuilderScripts\automatic_build\automatic_build_ndk_build.bat" />
-        <File filename="F:\trunk\Miniworld_projects\client\AppPlay\ApkBuilderScripts\automatic_build\automatic_build_confuse_assets.bat" />
-        <File filename="F:\trunk\Miniworld_projects\client\AppPlay\ApkBuilderScripts\automatic_build\automatic_build_integrate_res.bat" />
+        <File filename="F:\trunk\env1\client\OgreMain\Android.mk" />
+        <File filename="F:\trunk\env1\client\OgreMain\AndroidForOverseas.mk" />
+        <File filename="f:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\CommonNatives.java" />
+        <File filename="f:\trunk\env1\client\AppPlay\CommonOld\src\org\appplay\lib\CommonNatives.java" />
+        <File filename="f:\trunk\env1\client\AppPlay\CommonOld\jni\Common.cpp" />
+        <File filename="f:\trunk\env1\client\iworld\ClientManager.cpp" />
+        <File filename="f:\trunk\env1\client\iworld\ClientManager.h" />
+        <File filename="f:\trunk\env1\client\OgreMain\OgreApplication.h" />
+        <File filename="f:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\CommonNatives.java" />
+        <File filename="f:\trunk\env1\client\AppPlay\Common\jni\Common.cpp" />
+        <File filename="D:\&#x8FC5;&#x96F7; - &#x4E0B;&#x8F7D;\theme-93.xml" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -64,8 +66,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="2" />
-        <GUIConfig name="AppPosition" x="-43" y="450" width="1638" height="615" isMaximized="no" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20180712">no</GUIConfig>
+        <GUIConfig name="AppPosition" x="96" y="242" width="1728" height="726" isMaximized="no" />
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20181001">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
@@ -90,15 +92,16 @@
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
-        <GUIConfig name="stylerTheme" path="F:\Notapad_settings\stylers.xml" />
+        <GUIConfig name="stylerTheme" path="F:\default_programming_software_settings\Notapad_default_settings\stylers.xml" />
         <GUIConfig name="wordCharList" useDefault="yes" charsAdded="" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="multiInst" setting="0" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" newStyleSaveDlg="no" isFolderDroppedOpenFiles="no" docPeekOnTab="no" docPeekOnMap="no" />
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="none" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="yes" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="yes" borderEdge="yes" edge="no" edgeNbColumn="80" zoom="-2" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="none" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="yes" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="yes" borderEdge="yes" edge="no" edgeNbColumn="80" zoom="-5" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="200" topHeight="200" bottomHeight="200">
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
