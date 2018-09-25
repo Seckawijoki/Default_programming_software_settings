@@ -21,7 +21,7 @@
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
-        <Filter name="" />
+        <Find name="ArchiveInfoFrameIntroduceShareBtn_OnClick" />
         <Find name="&#x8DE8;&#x5E73;&#x53F0;" />
         <Find name="&#x8D26;&#x53F7;&#x767B;&#x5F55;" />
         <Find name="&#x8D26;&#x53F7;" />
@@ -31,7 +31,6 @@
         <Find name="KuaiKan" />
         <Find name="TalkingDataGA" />
         <Find name="TalkingDataGA.init" />
-        <Find name="Oppo" />
         <Replace name='.java&quot;' />
         <Replace name='set &quot;arrayFileList=!arrayFileList! ' />
         <Replace name="set arrayFileList=!arrayFileList! " />
@@ -47,18 +46,16 @@
         <root foldername="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2" />
     </FileBrowser>
     <History nbMaxFile="12" inSubMenu="no" customLength="-1">
-        <File filename="f:\trunk\env1\client\AppPlay\Proj.Android.MiniNubia\AndroidManifest.xml" />
-        <File filename="f:\trunk\env1\client\AppPlay\Proj.Android.MiniMeiTu\AndroidManifest.xml" />
-        <File filename="f:\trunk\env1\client\AppPlay\Proj.Android.MiniLeiZheng\AndroidManifest.xml" />
-        <File filename="f:\trunk\env1\client\AppPlay\Proj.Android.MiniKubi\AndroidManifest.xml" />
-        <File filename="f:\trunk\env1\client\AppPlay\Proj.Android.MiniKuaiKan\AndroidManifest.xml" />
-        <File filename="f:\trunk\env1\client\AppPlay\Proj.Android.MiniJuFeng\AndroidManifest.xml" />
-        <File filename="f:\trunk\env1\client\AppPlay\Proj.Android.MiniJinliYY\AndroidManifest.xml" />
-        <File filename="f:\trunk\env1\client\AppPlay\Proj.Android.MiniGGZS\AndroidManifest.xml" />
-        <File filename="f:\trunk\env1\client\AppPlay\Proj.Android.Mini18183\AndroidManifest.xml" />
-        <File filename="f:\trunk\env1\client\AppPlay\Proj.Android.Mini\AndroidManifest.xml" />
-        <File filename="f:\trunk\env1\client\AppPlay\Proj.Android\AndroidManifest.xml" />
-        <File filename="f:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\CommonNatives.java" />
+        <File filename="f:\trunk\env1\client\AppPlay\Common\CodeInjectUtil.py" />
+        <File filename="f:\trunk\env1\client\AppPlay\ApkBuilderScripts\automatic_build\automatic_build_entrance.bat" />
+        <File filename="f:\trunk\env1\bin\res\ui\mobile\uicommon.lua" />
+        <File filename="f:\trunk\env1\client\AppPlay\proj.AndroidStudio.BlockarkBeta\app\src\main\AndroidManifest.xml" />
+        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android.Mini\assets\ui\mobile\lobby.lua" />
+        <File filename="F:\trunk\env2\bin\res\ui\mobile\minilobby.lua" />
+        <File filename="F:\trunk\env1\bin\iworld_android_overseasbeta.cfg" />
+        <File filename="F:\trunk\env1\bin\iworld_android_overseas.cfg" />
+        <File filename="F:\trunk\env1\bin\res\csvdef\stringdef.csv" />
+        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android.MiniBeta\assets\ui\mobile\lobby.lua" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -67,7 +64,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="2" />
-        <GUIConfig name="AppPosition" x="62" y="0" width="1311" height="694" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="456" y="323" width="1311" height="663" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20181001">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
