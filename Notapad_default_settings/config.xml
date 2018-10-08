@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no">
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
@@ -21,16 +21,17 @@
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
-        <Find name="ArchiveInfoFrameIntroduceShareBtn_OnClick" />
-        <Find name="&#x8DE8;&#x5E73;&#x53F0;" />
-        <Find name="&#x8D26;&#x53F7;&#x767B;&#x5F55;" />
-        <Find name="&#x8D26;&#x53F7;" />
-        <Find name="&#x6D4B;&#x8BD5;&#x670D;&#x4E0D;&#x63D0;&#x4F9B;&#x5145;&#x503C;" />
-        <Find name="&#x60A8;&#x7684;&#x6E38;&#x620F;&#x7248;&#x672C;" />
-        <Find name="tiantian" />
-        <Find name="KuaiKan" />
-        <Find name="TalkingDataGA" />
-        <Find name="TalkingDataGA.init" />
+        <Filter name="" />
+        <Find name="SetEdit" />
+        <Find name="OnKey" />
+        <Find name="Third" />
+        <Find name="3601" />
+        <Find name="&#x5E94;&#x7528;&#x5B9D;" />
+        <Find name="RewardBtn" />
+        <Find name="RewardBtn&#x3001;" />
+        <Find name="UpdateChannelRewardBtn" />
+        <Find name="15" />
+        <Find name="minicps" />
         <Replace name='.java&quot;' />
         <Replace name='set &quot;arrayFileList=!arrayFileList! ' />
         <Replace name="set arrayFileList=!arrayFileList! " />
@@ -46,16 +47,18 @@
         <root foldername="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2" />
     </FileBrowser>
     <History nbMaxFile="12" inSubMenu="no" customLength="-1">
-        <File filename="f:\trunk\env1\client\AppPlay\Common\CodeInjectUtil.py" />
-        <File filename="f:\trunk\env1\client\AppPlay\ApkBuilderScripts\automatic_build\automatic_build_entrance.bat" />
-        <File filename="f:\trunk\env1\bin\res\ui\mobile\uicommon.lua" />
-        <File filename="f:\trunk\env1\client\AppPlay\proj.AndroidStudio.BlockarkBeta\app\src\main\AndroidManifest.xml" />
-        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android.Mini\assets\ui\mobile\lobby.lua" />
-        <File filename="F:\trunk\env2\bin\res\ui\mobile\minilobby.lua" />
-        <File filename="F:\trunk\env1\bin\iworld_android_overseasbeta.cfg" />
-        <File filename="F:\trunk\env1\bin\iworld_android_overseas.cfg" />
+        <File filename="f:\trunk\env1\client\AppPlay\Common\jni\Common.cpp" />
+        <File filename="f:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\CommonNatives.java" />
+        <File filename="f:\trunk\env1\client\OgreMain\OgreApplication.h" />
         <File filename="F:\trunk\env1\bin\res\csvdef\stringdef.csv" />
-        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android.MiniBeta\assets\ui\mobile\lobby.lua" />
+        <File filename="F:\trunk\env1\bin\res\ui\mobile\marketactivity.lua" />
+        <File filename="f:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\GameBaseActivity.java" />
+        <File filename="f:\trunk\env1\client\OgreMain\Android\AppPlayJNI.hpp" />
+        <File filename="f:\trunk\env1\client\OgreMain\OgreOSUtility.cpp" />
+        <File filename="f:\trunk\env1\client\OgreMain\OgreOSUtility.h" />
+        <File filename="f:\trunk\env1\client\iworld\ClientManager.cpp" />
+        <File filename="f:\trunk\env1\client\iworld\ClientManager.h" />
+        <File filename="f:\trunk\env1\client\AppPlay\proj.AndroidStudio.BlockarkBeta\libraries\minicommon\src\main\java\org\appplay\lib\CommonNatives.java" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -64,8 +67,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="2" />
-        <GUIConfig name="AppPosition" x="456" y="323" width="1311" height="663" isMaximized="yes" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20181001">no</GUIConfig>
+        <GUIConfig name="AppPosition" x="459" y="333" width="1311" height="660" isMaximized="yes" />
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20181020">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
