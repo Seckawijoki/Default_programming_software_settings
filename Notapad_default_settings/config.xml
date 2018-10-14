@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no">
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
@@ -21,16 +21,16 @@
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
+        <Find name="1500" />
+        <Find name="150" />
+        <Find name="&#x89E3;&#x9501;&#x9053;&#x5177;&#x53EF;&#x5728;" />
+        <Find name="609" />
+        <Find name="632" />
+        <Find name="%" />
+        <Find name="%d" />
         <Find name="SetEdit" />
         <Find name="OnKey" />
         <Find name="Third" />
-        <Find name="3601" />
-        <Find name="&#x5E94;&#x7528;&#x5B9D;" />
-        <Find name="RewardBtn" />
-        <Find name="RewardBtn&#x3001;" />
-        <Find name="UpdateChannelRewardBtn" />
-        <Find name="15" />
-        <Find name="minicps" />
         <Replace name='.java&quot;' />
         <Replace name='set &quot;arrayFileList=!arrayFileList! ' />
         <Replace name="set arrayFileList=!arrayFileList! " />
@@ -46,18 +46,18 @@
         <root foldername="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2" />
     </FileBrowser>
     <History nbMaxFile="12" inSubMenu="no" customLength="-1">
-        <File filename="f:\trunk\env1\client\AppPlay\Common\jni\Common.cpp" />
-        <File filename="f:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\CommonNatives.java" />
-        <File filename="f:\trunk\env1\client\OgreMain\OgreApplication.h" />
-        <File filename="F:\trunk\env1\bin\res\csvdef\stringdef.csv" />
-        <File filename="F:\trunk\env1\bin\res\ui\mobile\marketactivity.lua" />
-        <File filename="f:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\GameBaseActivity.java" />
-        <File filename="f:\trunk\env1\client\OgreMain\Android\AppPlayJNI.hpp" />
-        <File filename="f:\trunk\env1\client\OgreMain\OgreOSUtility.cpp" />
-        <File filename="f:\trunk\env1\client\OgreMain\OgreOSUtility.h" />
-        <File filename="f:\trunk\env1\client\iworld\ClientManager.cpp" />
-        <File filename="f:\trunk\env1\client\iworld\ClientManager.h" />
-        <File filename="f:\trunk\env1\client\AppPlay\proj.AndroidStudio.BlockarkBeta\libraries\minicommon\src\main\java\org\appplay\lib\CommonNatives.java" />
+        <File filename="F:\trunk\env1\client\AsAppPlay\miniworld_common\src\main\java\org\appplay\lib\NetworkChangedReceiver.java" />
+        <File filename="F:\trunk\env1\bin\res\csvdef\autogen\stringdef.csv" />
+        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.BlockarkBeta\libraries\minicommon\src\main\java\org\appplay\lib\CommonNatives.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\CommonNatives.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\CommonOld\src\org\appplay\lib\CommonNatives.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\CommonOld\jni\Common.cpp" />
+        <File filename="F:\trunk\env1\client\AppPlay\Common\jni\Common.cpp" />
+        <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\CommonNatives.java" />
+        <File filename="F:\trunk\env1\client\iworld\ClientManager.cpp" />
+        <File filename="F:\trunk\env1\client\iworld\ClientManager.h" />
+        <File filename="F:\trunk\env1\client\OgreMain\OgreApplication.h" />
+        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android.Anzhi\src\org\appplay\lib\AppPlayDns.java" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
