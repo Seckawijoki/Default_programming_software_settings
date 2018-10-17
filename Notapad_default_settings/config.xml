@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no">
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
@@ -21,16 +21,18 @@
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
-        <Find name="1500" />
-        <Find name="150" />
-        <Find name="&#x89E3;&#x9501;&#x9053;&#x5177;&#x53EF;&#x5728;" />
-        <Find name="609" />
-        <Find name="632" />
-        <Find name="%" />
-        <Find name="%d" />
-        <Find name="SetEdit" />
-        <Find name="OnKey" />
-        <Find name="Third" />
+        <Filter name="" />
+        <Find name="&#x8DE8;&#x5E73;&#x53F0;" />
+        <Find name="\" />
+        <Find name="mNetworkChangedReceiver = new NetworkChangedReceiver(" />
+        <Find name="new NetworkChangedReceiver" />
+        <Find name="onNewIntent" />
+        <Find name="package" />
+        <Find name="onNew" />
+        <Find name="NewIntent" />
+        <Find name="1356" />
+        <Find name="1930" />
+        <Replace name="/" />
         <Replace name='.java&quot;' />
         <Replace name='set &quot;arrayFileList=!arrayFileList! ' />
         <Replace name="set arrayFileList=!arrayFileList! " />
@@ -40,24 +42,16 @@
         <Replace name="rem " />
         <Replace name="integrate res" />
         <Replace name="mStartTime" />
-        <Replace name="mEndTime" />
     </FindHistory>
     <FileBrowser latestSelectedItem="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2">
         <root foldername="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2" />
     </FileBrowser>
     <History nbMaxFile="12" inSubMenu="no" customLength="-1">
-        <File filename="F:\trunk\env1\client\AsAppPlay\miniworld_common\src\main\java\org\appplay\lib\NetworkChangedReceiver.java" />
-        <File filename="F:\trunk\env1\bin\res\csvdef\autogen\stringdef.csv" />
-        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.BlockarkBeta\libraries\minicommon\src\main\java\org\appplay\lib\CommonNatives.java" />
-        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\CommonNatives.java" />
-        <File filename="F:\trunk\env1\client\AppPlay\CommonOld\src\org\appplay\lib\CommonNatives.java" />
-        <File filename="F:\trunk\env1\client\AppPlay\CommonOld\jni\Common.cpp" />
-        <File filename="F:\trunk\env1\client\AppPlay\Common\jni\Common.cpp" />
-        <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\CommonNatives.java" />
+        <File filename="F:\trunk\env1\client\OgreMain\Android\AppPlayJNI.hpp" />
+        <File filename="F:\trunk\env1\client\OgreMain\OgreOSUtility.cpp" />
+        <File filename="F:\trunk\env1\client\OgreMain\OgreOSUtility.h" />
         <File filename="F:\trunk\env1\client\iworld\ClientManager.cpp" />
         <File filename="F:\trunk\env1\client\iworld\ClientManager.h" />
-        <File filename="F:\trunk\env1\client\OgreMain\OgreApplication.h" />
-        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android.Anzhi\src\org\appplay\lib\AppPlayDns.java" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -66,7 +60,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="2" />
-        <GUIConfig name="AppPosition" x="459" y="333" width="1311" height="660" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="62" y="34" width="1311" height="660" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20181020">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
