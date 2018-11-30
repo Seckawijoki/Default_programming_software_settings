@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no">
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
@@ -21,17 +21,16 @@
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
-        <Filter name="" />
-        <Find name="446" />
-        <Find name="446&#x3001;" />
-        <Find name="&#x623F;&#x4E3B;" />
-        <Find name="&#x623F;&#x4E3B;&#x597D;&#x50CF;&#x4E0D;&#x559C;&#x6B22;" />
-        <Find name="6047" />
-        <Find name="&#x5206;&#x4EAB;" />
-        <Find name="6057" />
-        <Find name="MiniwAr" />
-        <Find name="13" />
-        <Find name="FaceBook" />
+        <Find name="IsShare" />
+        <Find name="TextUtils.equa" />
+        <Find name="static long" />
+        <Find name="MiniLobbyFrameBottomAR" />
+        <Find name="AppExist" />
+        <Find name="fx_fb" />
+        <Find name="luzhi_bd_shijianzhou" />
+        <Find name="BasicTemplate" />
+        <Find name="1516" />
+        <Find name="622" />
         <Replace name="/" />
         <Replace name='.java&quot;' />
         <Replace name='set &quot;arrayFileList=!arrayFileList! ' />
@@ -47,18 +46,18 @@
         <root foldername="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2" />
     </FileBrowser>
     <History nbMaxFile="12" inSubMenu="no" customLength="-1">
-        <File filename="F:\trunk\env1\client\AppPlay\CommonOld\src\org\appplay\lib\UpdateManagerBase.java" />
-        <File filename="F:\trunk\env1\client\AppPlay\CommonOld\CodeInjectUtil.py" />
-        <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\UpdateManagerBase.java" />
-        <File filename="F:\trunk\env1\client\AppPlay\Common\CodeInjectUtil.py" />
-        <File filename="F:\trunk\env1\client\AppPlay\ApkBuilderScripts\automatic_build\automatic_build_entrance.bat" />
-        <File filename="F:\trunk\env1\bin\res\ui\mobile\uicommon.lua" />
+        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\assets\ui\mobile\login.lua" />
+        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\assets\iworld.cfg" />
         <File filename="F:\trunk\env1\client\AsAppPlay\miniworld_common\src\main\java\org\appplay\lib\GameBaseActivity.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\GameBaseActivity.java" />
         <File filename="F:\trunk\env1\client\AppPlay\CommonOld\src\org\appplay\lib\GameBaseActivity.java" />
         <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\GameBaseActivity.java" />
-        <File filename="F:\trunk\env1\client\AppPlay\HMSSdkGame\AndroidManifest.xml" />
-        <File filename="F:\trunk\env1\bin\res\csvdef\autogen\stringdef.csv" />
-        <File filename="F:\trunk\env1\client\OgreMain\AndroidForOverseas.mk" />
+        <File filename="F:\trunk\env1\client\OgreMain\Android\AppPlayJNI.cpp" />
+        <File filename="F:\trunk\env1\client\OgreMain\Android\AppPlayJNI.hpp" />
+        <File filename="F:\trunk\env1\client\OgreMain\OgreOSUtility.cpp" />
+        <File filename="F:\trunk\env1\client\OgreMain\OgreOSUtility.h" />
+        <File filename="F:\trunk\env1\client\iworld\ClientManager.cpp" />
+        <File filename="F:\trunk\env1\client\iworld\ClientManager.h" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -67,8 +66,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="2" />
-        <GUIConfig name="AppPosition" x="113" y="196" width="1311" height="625" isMaximized="no" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20181104">no</GUIConfig>
+        <GUIConfig name="AppPosition" x="311" y="144" width="1311" height="609" isMaximized="yes" />
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20181211">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
