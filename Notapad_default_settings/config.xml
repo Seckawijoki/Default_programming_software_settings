@@ -21,16 +21,16 @@
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
-        <Find name="msi" />
-        <Find name="registerHandler" />
-        <Find name="result = " />
-        <Find name="Show_GLV" />
-        <Find name="void onActivity" />
-        <Find name="void onActivityResult" />
-        <Find name="onActivityResult" />
-        <Find name="handle" />
-        <Find name="handleCode" />
-        <Find name="Capture" />
+        <Find name="maxfps" />
+        <Find name="game" />
+        <Find name="*" />
+        <Find name="testForLogcat" />
+        <Find name="testf" />
+        <Find name="print" />
+        <Find name="ViewCompat" />
+        <Find name="cheruc" />
+        <Find name="&#x65E5;&#x540E;&#x518D;&#x5F00;&#x542F;" />
+        <Find name="onActivity" />
         <Replace name="/" />
         <Replace name='.java&quot;' />
         <Replace name='set &quot;arrayFileList=!arrayFileList! ' />
@@ -46,18 +46,18 @@
         <root foldername="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2" />
     </FileBrowser>
     <History nbMaxFile="12" inSubMenu="no" customLength="-1">
-        <File filename="F:\trunk\env1\client\AsAppPlay\Proj.AndroidStudio.T4399\app\build\outputs\apk\T4399\debug\output.json" />
-        <File filename="F:\trunk\env2\bin\res\ui\mobile\PlayerExhibitionCenter.lua" />
-        <File filename="F:\trunk\env1\client\AsAppPlay\miniworld_common\src\main\java\org\appplay\lib\GameBaseActivity.java" />
-        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\GameBaseActivity.java" />
-        <File filename="F:\trunk\env1\client\AppPlay\CommonOld\src\org\appplay\lib\GameBaseActivity.java" />
-        <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\GameBaseActivity.java" />
-        <File filename="F:\trunk\env1\client\OgreMain\Android\AppPlayJNI.cpp" />
-        <File filename="F:\trunk\env1\client\OgreMain\Android\AppPlayJNI.hpp" />
-        <File filename="F:\trunk\env1\client\OgreMain\OgreOSUtility.cpp" />
-        <File filename="F:\trunk\env1\client\OgreMain\OgreOSUtility.h" />
-        <File filename="F:\trunk\env1\client\iworld\ClientManager.h" />
-        <File filename="F:\trunk\env1\client\iworld\ClientManager.cpp" />
+        <File filename="F:\trunk\env2\client\AppPlay\CommonOld\src\org\appplay\minishare\MiniShare.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\MiniWorldBrowser\res\layout\base_browser_activity.xml" />
+        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\res\layout\base_browser_activity.xml" />
+        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android\src\org\appplay\ARCamera\util\CamParaUtil.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android\src\org\appplay\ARCamera\util\DisplayUtil.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android\src\org\appplay\ARCamera\util\SensorUtil.java" />
+        <File filename="D:\&#x6587;&#x6863;\WXWork\WXWork Files\File\2019-01\augmentedreality.lua" />
+        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android\src\org\appplay\ARCamera\util\ImageUtil.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android.Mini\src\org\appplay\ARCamera\util\DisplayUtil.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android.Mini\src\org\appplay\ARCamera\util\FileUtil.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android\src\org\appplay\ARCamera\smartcropper\utils\ResUtils.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android\src\org\appplay\ARCamera\smartcropper\utils\CropUtils.java" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -66,8 +66,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="2" />
-        <GUIConfig name="AppPosition" x="238" y="383" width="1311" height="609" isMaximized="yes" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20190110">no</GUIConfig>
+        <GUIConfig name="AppPosition" x="147" y="216" width="1311" height="667" isMaximized="yes" />
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20190125">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
