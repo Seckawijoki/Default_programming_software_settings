@@ -21,16 +21,16 @@
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
-        <Find name="_BrowserShowWebpage" />
-        <Find name="BrowserShowWebpage" />
-        <Find name="ShareBtn_" />
-        <Find name="ShareBtn" />
-        <Find name="maxfps" />
-        <Find name="game" />
-        <Find name="*" />
-        <Find name="testForLogcat" />
-        <Find name="testf" />
-        <Find name="print" />
+        <Find name="oppoyz" />
+        <Find name="GetRAM" />
+        <Find name="RAM" />
+        <Find name="getRA" />
+        <Find name="getAR" />
+        <Find name="get" />
+        <Find name="Pop" />
+        <Find name="PopWin" />
+        <Find name="variant" />
+        <Find name="REQUEST_CODE_SCAN_QRCODE" />
         <Replace name="/" />
         <Replace name='.java&quot;' />
         <Replace name='set &quot;arrayFileList=!arrayFileList! ' />
@@ -46,18 +46,17 @@
         <root foldername="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2" />
     </FileBrowser>
     <History nbMaxFile="12" inSubMenu="no" customLength="-1">
-        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android\src\org\appplay\lib\AppPlayBaseActivity.java" />
-        <File filename="F:\trunk\env2\bin\res\ui\mobile\store.lua" />
-        <File filename="F:\trunk\env1\bin\res\ui\mobile\store.lua" />
-        <File filename="F:\trunk\env2\client\AppPlay\Proj.Android.Jinli\local.properties" />
-        <File filename="F:\trunk\env2\client\AppPlay\Proj.Android.Jinli\project.properties" />
-        <File filename="F:\trunk\env1\client\AsAppPlay\ApkOutput\output.json" />
-        <File filename="F:\trunk\env3\bin\res\ui\mobile\globaldata.lua" />
+        <File filename="F:\trunk\env1\client\AppPlay\ApkBuilderScripts\automatic_build\activity.lua" />
+        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\app\src\oppo\java\org\appplay\platformsdk\TMobileSDK.java" />
+        <File filename="F:\trunk\20190401_UIRefactor\bin\res\ui\mobile\interactive.xml" />
+        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\app\build.gradle" />
+        <File filename="F:\trunk\env2\client\AsAppPlay\Proj.AndroidStudio\app\build.gradle" />
+        <File filename="F:\trunk\env2\client\AsAppPlay\Proj.AndroidStudio\build.gradle" />
+        <File filename="F:\trunk\env1\client\AsAppPlay\Proj.AndroidStudio\app\build.gradle" />
+        <File filename="F:\trunk\env1\client\AsAppPlay\Proj.AndroidStudio\build.gradle" />
         <File filename="F:\trunk\env2\bin\res\ui\mobile\globaldata.lua" />
-        <File filename="F:\trunk\env2\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\GameBaseActivity.java" />
-        <File filename="F:\trunk\env2\client\AppPlay\Proj.Android.Vivo\project.properties" />
-        <File filename="F:\trunk\env3\client\AppPlay\proj.AndroidStudio.Blockark\local.properties" />
-        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android.TencentQQDT\src\org\appplay\lib\AppPlayBaseActivity.java" />
+        <File filename="F:\trunk\env1\bin\iworld_android.cfg" />
+        <File filename="F:\trunk\env1\bin\iworld.cfg" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -66,8 +65,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="2" />
-        <GUIConfig name="AppPosition" x="499" y="229" width="1311" height="667" isMaximized="yes" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20190301">no</GUIConfig>
+        <GUIConfig name="AppPosition" x="-1" y="488" width="1101" height="506" isMaximized="no" />
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20190708">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
