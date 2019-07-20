@@ -21,16 +21,17 @@
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
+        <Filter name="" />
+        <Find name="OnStatisticsAdEvent" />
+        <Find name="texture3/minilobby.png" />
+        <Find name="texture3/" />
+        <Find name="texture3" />
+        <Find name="*.png" />
         <Find name="oppoyz" />
         <Find name="GetRAM" />
         <Find name="RAM" />
         <Find name="getRA" />
         <Find name="getAR" />
-        <Find name="get" />
-        <Find name="Pop" />
-        <Find name="PopWin" />
-        <Find name="variant" />
-        <Find name="REQUEST_CODE_SCAN_QRCODE" />
         <Replace name="/" />
         <Replace name='.java&quot;' />
         <Replace name='set &quot;arrayFileList=!arrayFileList! ' />
@@ -46,17 +47,18 @@
         <root foldername="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2" />
     </FileBrowser>
     <History nbMaxFile="12" inSubMenu="no" customLength="-1">
-        <File filename="F:\trunk\env1\client\AppPlay\ApkBuilderScripts\automatic_build\activity.lua" />
-        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\app\src\oppo\java\org\appplay\platformsdk\TMobileSDK.java" />
-        <File filename="F:\trunk\20190401_UIRefactor\bin\res\ui\mobile\interactive.xml" />
-        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\app\build.gradle" />
-        <File filename="F:\trunk\env2\client\AsAppPlay\Proj.AndroidStudio\app\build.gradle" />
-        <File filename="F:\trunk\env2\client\AsAppPlay\Proj.AndroidStudio\build.gradle" />
-        <File filename="F:\trunk\env1\client\AsAppPlay\Proj.AndroidStudio\app\build.gradle" />
-        <File filename="F:\trunk\env1\client\AsAppPlay\Proj.AndroidStudio\build.gradle" />
-        <File filename="F:\trunk\env2\bin\res\ui\mobile\globaldata.lua" />
-        <File filename="F:\trunk\env1\bin\iworld_android.cfg" />
-        <File filename="F:\trunk\env1\bin\iworld.cfg" />
+        <File filename="F:\trunk\env1\client\sdk\smartar\libminiwar\Application.mk" />
+        <File filename="F:\trunk\env1\client\sdk\smartar\libminiwar\compile.bat" />
+        <File filename="F:\&#x9700;&#x6C42;&#x6587;&#x6863;\qutoutiaobanner.html" />
+        <File filename="F:\&#x9700;&#x6C42;&#x6587;&#x6863;\join_room205135751.html" />
+        <File filename="F:\&#x9700;&#x6C42;&#x6587;&#x6863;\join_room.html" />
+        <File filename="F:\trunk\env2\bin\iworld.cfg" />
+        <File filename="F:\trunk\env1\build\clean_imag_android.sh" />
+        <File filename="F:\trunk\env1\bin\res\ui\mobile\minilobby.lua" />
+        <File filename="F:\Lua_files\test.lua" />
+        <File filename="F:\pc_sign_tools\mysign_mini.bat" />
+        <File filename="F:\trunk\env1\bin\res\ui\mobile\texture2\achievement.xml" />
+        <File filename="F:\trunk\env1\client\OgreMain\fmod\lib\fmod.hpp" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -65,8 +67,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="2" />
-        <GUIConfig name="AppPosition" x="-1" y="488" width="1101" height="506" isMaximized="no" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20190708">no</GUIConfig>
+        <GUIConfig name="AppPosition" x="485" y="114" width="1101" height="798" isMaximized="yes" />
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20190724">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
