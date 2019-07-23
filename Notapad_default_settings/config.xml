@@ -21,7 +21,6 @@
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
-        <Filter name="" />
         <Find name="OnStatisticsAdEvent" />
         <Find name="texture3/minilobby.png" />
         <Find name="texture3/" />
@@ -47,18 +46,16 @@
         <root foldername="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2" />
     </FileBrowser>
     <History nbMaxFile="12" inSubMenu="no" customLength="-1">
-        <File filename="F:\trunk\env1\client\sdk\smartar\libminiwar\Application.mk" />
-        <File filename="F:\trunk\env1\client\sdk\smartar\libminiwar\compile.bat" />
-        <File filename="F:\&#x9700;&#x6C42;&#x6587;&#x6863;\qutoutiaobanner.html" />
-        <File filename="F:\&#x9700;&#x6C42;&#x6587;&#x6863;\join_room205135751.html" />
-        <File filename="F:\&#x9700;&#x6C42;&#x6587;&#x6863;\join_room.html" />
-        <File filename="F:\trunk\env2\bin\iworld.cfg" />
-        <File filename="F:\trunk\env1\build\clean_imag_android.sh" />
-        <File filename="F:\trunk\env1\bin\res\ui\mobile\minilobby.lua" />
-        <File filename="F:\Lua_files\test.lua" />
-        <File filename="F:\pc_sign_tools\mysign_mini.bat" />
         <File filename="F:\trunk\env1\bin\res\ui\mobile\texture2\achievement.xml" />
         <File filename="F:\trunk\env1\client\OgreMain\fmod\lib\fmod.hpp" />
+        <File filename="F:\trunk\env1\client\OgreMain\OgreApplication.h" />
+        <File filename="F:\trunk\env1\client\AppPlay\CommonOld\jni\Common.cpp" />
+        <File filename="F:\trunk\env1\client\AppPlay\Common\jni\Common.cpp" />
+        <File filename="F:\trunk\env1\client\AsAppPlay\miniworld_common\src\main\java\org\appplay\lib\CommonNatives.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\CommonNatives.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\CommonOld\src\org\appplay\lib\CommonNatives.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\CommonNatives.java" />
+        <File filename="D:\&#x6587;&#x6863;\WXWork\WXWork Files\File\2019-07\store.lua" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -67,7 +64,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="2" />
-        <GUIConfig name="AppPosition" x="485" y="114" width="1101" height="798" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="436" y="302" width="1101" height="798" isMaximized="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20190724">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
