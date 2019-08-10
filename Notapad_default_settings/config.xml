@@ -21,16 +21,17 @@
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
+        <Find name="lang" />
+        <Find name="1006" />
+        <Find name="IsARM64" />
+        <Find name="BuildConfig" />
         <Find name="OnStatisticsAdEvent" />
         <Find name="texture3/minilobby.png" />
         <Find name="texture3/" />
         <Find name="texture3" />
         <Find name="*.png" />
         <Find name="oppoyz" />
-        <Find name="GetRAM" />
-        <Find name="RAM" />
-        <Find name="getRA" />
-        <Find name="getAR" />
+        <Replace name="HasBuiltWithARM64" />
         <Replace name="/" />
         <Replace name='.java&quot;' />
         <Replace name='set &quot;arrayFileList=!arrayFileList! ' />
@@ -40,22 +41,23 @@
         <Replace name="confuseCount" />
         <Replace name="rem " />
         <Replace name="integrate res" />
-        <Replace name="mStartTime" />
     </FindHistory>
     <FileBrowser latestSelectedItem="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2">
         <root foldername="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2" />
     </FileBrowser>
     <History nbMaxFile="12" inSubMenu="no" customLength="-1">
-        <File filename="F:\trunk\env1\bin\res\ui\mobile\texture2\achievement.xml" />
-        <File filename="F:\trunk\env1\client\OgreMain\fmod\lib\fmod.hpp" />
-        <File filename="F:\trunk\env1\client\OgreMain\OgreApplication.h" />
-        <File filename="F:\trunk\env1\client\AppPlay\CommonOld\jni\Common.cpp" />
-        <File filename="F:\trunk\env1\client\AppPlay\Common\jni\Common.cpp" />
-        <File filename="F:\trunk\env1\client\AsAppPlay\miniworld_common\src\main\java\org\appplay\lib\CommonNatives.java" />
-        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\CommonNatives.java" />
-        <File filename="F:\trunk\env1\client\AppPlay\CommonOld\src\org\appplay\lib\CommonNatives.java" />
-        <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\CommonNatives.java" />
-        <File filename="D:\&#x6587;&#x6863;\WXWork\WXWork Files\File\2019-07\store.lua" />
+        <File filename="F:\&#x7B2C;&#x4E09;&#x65B9;&#x5E73;&#x53F0;SDK\&#x534E;&#x4E3A;sdk\&#x4E3B;sdk&#xFF0C;&#x5FC5;&#x63A5;\HMSAgent_2.6.3.306\build.gradle" />
+        <File filename="F:\&#x7B2C;&#x4E09;&#x65B9;&#x5E73;&#x53F0;SDK\&#x534E;&#x4E3A;sdk\&#x4E3B;sdk&#xFF0C;&#x5FC5;&#x63A5;\HMSAgent_2.6.3.306\hmsagents\build.gradle" />
+        <File filename="D:\&#x6587;&#x6863;\WXWork\WXWork Files\File\2019-08\DeveloperInterface.lua" />
+        <File filename="F:\trunk\env2\client\AppPlay\Proj.Android\jni\Android_1.mk" />
+        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android\jni\Android_1.mk" />
+        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\GameBaseActivity.java" />
+        <File filename="F:\trunk\env11\bin\data\developer_game\script\pushclimb.lua" />
+        <File filename="D:\android-studio-ide-173.4907809-windows\bin\studio64.exe.vmoptions" />
+        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\app\src\main\jni\Android_.mk" />
+        <File filename="F:\trunk\env1\bin\res\luascript\print.lua" />
+        <File filename="F:\trunk\env1\bin\res\luascript\script.toc" />
+        <File filename="F:\trunk\env1\bin\iworld.cfg" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -64,8 +66,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="2" />
-        <GUIConfig name="AppPosition" x="436" y="302" width="1101" height="798" isMaximized="yes" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20190724">no</GUIConfig>
+        <GUIConfig name="AppPosition" x="419" y="-8" width="1101" height="798" isMaximized="yes" />
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20190823">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
