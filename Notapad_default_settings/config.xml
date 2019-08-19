@@ -21,6 +21,7 @@
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
+        <Find name="onDestroy" />
         <Find name="lang" />
         <Find name="1006" />
         <Find name="IsARM64" />
@@ -30,7 +31,6 @@
         <Find name="texture3/" />
         <Find name="texture3" />
         <Find name="*.png" />
-        <Find name="oppoyz" />
         <Replace name="HasBuiltWithARM64" />
         <Replace name="/" />
         <Replace name='.java&quot;' />
@@ -46,18 +46,18 @@
         <root foldername="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2" />
     </FileBrowser>
     <History nbMaxFile="12" inSubMenu="no" customLength="-1">
-        <File filename="F:\&#x7B2C;&#x4E09;&#x65B9;&#x5E73;&#x53F0;SDK\&#x534E;&#x4E3A;sdk\&#x4E3B;sdk&#xFF0C;&#x5FC5;&#x63A5;\HMSAgent_2.6.3.306\build.gradle" />
-        <File filename="F:\&#x7B2C;&#x4E09;&#x65B9;&#x5E73;&#x53F0;SDK\&#x534E;&#x4E3A;sdk\&#x4E3B;sdk&#xFF0C;&#x5FC5;&#x63A5;\HMSAgent_2.6.3.306\hmsagents\build.gradle" />
-        <File filename="D:\&#x6587;&#x6863;\WXWork\WXWork Files\File\2019-08\DeveloperInterface.lua" />
-        <File filename="F:\trunk\env2\client\AppPlay\Proj.Android\jni\Android_1.mk" />
-        <File filename="F:\trunk\env1\client\AppPlay\Proj.Android\jni\Android_1.mk" />
+        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\FileUtils.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\FileUtils.java" />
+        <File filename="F:\trunk\env1\client\iworld\ClientManager.cpp" />
+        <File filename="F:\trunk\env1\client\iworld\ClientManager.h" />
+        <File filename="F:\trunk\env1\client\OgreMain\OgreApplication.h" />
+        <File filename="F:\trunk\env1\client\AppPlay\Common\jni\Common.cpp" />
+        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\CommonNatives.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\CommonNatives.java" />
+        <File filename="F:\trunk\env2\client\AppPlay\ApkBuilderScripts\commitment\Notepad_open_Common_org_appplay_lib.bat" />
+        <File filename="F:\trunk\env1\client\AsAppPlay\Proj.AndroidStudio\libraries\miniworld_common\src\main\java\org\appplay\lib\GameBaseActivity.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\GameBaseActivity.java" />
         <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\GameBaseActivity.java" />
-        <File filename="F:\trunk\env11\bin\data\developer_game\script\pushclimb.lua" />
-        <File filename="D:\android-studio-ide-173.4907809-windows\bin\studio64.exe.vmoptions" />
-        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\app\src\main\jni\Android_.mk" />
-        <File filename="F:\trunk\env1\bin\res\luascript\print.lua" />
-        <File filename="F:\trunk\env1\bin\res\luascript\script.toc" />
-        <File filename="F:\trunk\env1\bin\iworld.cfg" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
