@@ -1,0 +1,124 @@
+{
+	// Place your snippets for bat here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+		"annotateparagraphdatetime" : {
+			"scope": "lua",
+			"prefix": "annotateparagraphdatetime",
+			"body": [
+				"--[[\n\t\n\tCreated on $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE at $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND\n]]",
+			],
+			"description": "A paragraph annotation with date and time"
+		},
+
+		"annotatelinedatetime" : {
+			"scope": "lua",
+			"prefix": "annotatelinedatetime",
+			"body": [
+				"--$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND - ",
+			],
+			"description": "A line annotation with date and time"
+		},
+
+		"dateclock" : {
+			"scope": "lua",
+			"prefix": "dateclock",
+			"body": [
+				"--$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+			],
+			"description": "A date clock time."
+		},
+
+		"print0": {
+			"scope": "lua",
+			"prefix": "printlineinfo",
+			"body": [
+				"print(\"$TM_FILENAME($TM_LINE_NUMBER): $1\");",
+			],
+			"description": "Pure print with some self typing."
+		},
+
+		"print1": {
+			"scope": "lua",
+			"prefix": "printlineclipboard",
+			"body": [
+				"print(\"$TM_FILENAME($TM_LINE_NUMBER): $CLIPBOARD = \", $CLIPBOARD);",
+			],
+			"description": "Print with copy content."
+		},
+
+		"print2": {
+			"scope": "lua",
+			"prefix": "printlinevariable",
+			"body": [
+				"print(\"$TM_FILENAME($TM_LINE_NUMBER): $1 = \", $1);",
+			],
+			"description": "Print a value about to be being typed."
+		},
+
+		"print3": {
+			"scope": "lua",
+			"prefix": "printfunctioninfo",
+			"body": [
+				"print(\"$CLIPBOARD(): $1\");",
+			],
+			"description": "Print the copied."
+		},
+
+		"print4": {
+			"scope": "lua",
+			"prefix": "printfunctionvariable",
+			"body": [
+				"print(\"$CLIPBOARD(): $1 = \", $1);",
+			],
+			"description": "Print the copied with variable"
+		},
+
+		"androidlocalize": {
+			"scope": "lua",
+			"prefix": "andrlocal",
+			"body": [
+				"local print = Android:Localize();",
+			],
+			"description": "local print = Android:Localize();"
+		},
+
+		"androidsituation": {
+			"scope": "lua",
+			"prefix": "androidsituation",
+			"body": [
+				"local print = Android:Localize(Android.SITUATION.$1);",
+			],
+			"description": "local print = Android:Localize(Android.SITUATION.$1);"
+		},
+
+		"apiId": {
+			"scope": "lua",
+			"prefix": "getapi",
+			"body": [
+				"local apiId = ClientMgr:getApiId();",
+			],
+			"description": "local apiId = ClientMgr:getApiId();"
+		},
+
+
+		"traceback": {
+			"scope": "lua",
+			"prefix": "traceback",
+			"body": [
+				"print(debug.traceback());",
+			],
+			"description": "print(debug.traceback());"
+		},
+}

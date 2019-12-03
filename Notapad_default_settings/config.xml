@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="no" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="yes" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no">
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
@@ -21,16 +21,18 @@
         <Filter name="" />
         <Filter name="" />
         <Filter name="" />
+        <Filter name="" />
+        <Find name="ico_createmode" />
+        <Find name="mapstore" />
+        <Find name="onPost" />
+        <Find name="onPostCommonShowGLView" />
+        <Find name="parseQRCode" />
+        <Find name="arseQRCode" />
+        <Find name="GameExit" />
+        <Find name="SaveRegionCurrencyRate" />
+        <Find name="_OnShow" />
         <Find name="onDestroy" />
-        <Find name="lang" />
-        <Find name="1006" />
-        <Find name="IsARM64" />
-        <Find name="BuildConfig" />
-        <Find name="OnStatisticsAdEvent" />
-        <Find name="texture3/minilobby.png" />
-        <Find name="texture3/" />
-        <Find name="texture3" />
-        <Find name="*.png" />
+        <Replace name="" />
         <Replace name="HasBuiltWithARM64" />
         <Replace name="/" />
         <Replace name='.java&quot;' />
@@ -46,18 +48,18 @@
         <root foldername="F:\open-sdk\LuaViewSDK-master\Android\LuaViewSDK\src\org\luaj\vm2" />
     </FileBrowser>
     <History nbMaxFile="12" inSubMenu="no" customLength="-1">
-        <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\FileUtils.java" />
-        <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\FileUtils.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\MobilePhoneInfoUtil.java" />
         <File filename="F:\trunk\env1\client\iworld\ClientManager.cpp" />
         <File filename="F:\trunk\env1\client\iworld\ClientManager.h" />
         <File filename="F:\trunk\env1\client\OgreMain\OgreApplication.h" />
         <File filename="F:\trunk\env1\client\AppPlay\Common\jni\Common.cpp" />
+        <File filename="F:\trunk\env1\client\AsAppPlay\Proj.AndroidStudio\libraries\miniworld_common\src\main\java\org\appplay\lib\CommonNatives.java" />
         <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\CommonNatives.java" />
         <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\CommonNatives.java" />
-        <File filename="F:\trunk\env2\client\AppPlay\ApkBuilderScripts\commitment\Notepad_open_Common_org_appplay_lib.bat" />
         <File filename="F:\trunk\env1\client\AsAppPlay\Proj.AndroidStudio\libraries\miniworld_common\src\main\java\org\appplay\lib\GameBaseActivity.java" />
-        <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\GameBaseActivity.java" />
         <File filename="F:\trunk\env1\client\AppPlay\proj.AndroidStudio.Blockark\libraries\minicommon\src\main\java\org\appplay\lib\GameBaseActivity.java" />
+        <File filename="F:\trunk\env1\client\AppPlay\Common\src\org\appplay\lib\GameBaseActivity.java" />
+        <File filename="F:\trunk\env2\bin\res\luascript\accountcs.lua" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -66,8 +68,8 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="yes" size="2" />
-        <GUIConfig name="AppPosition" x="419" y="-8" width="1101" height="798" isMaximized="yes" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20190823">no</GUIConfig>
+        <GUIConfig name="AppPosition" x="-8" y="-8" width="1936" height="974" isMaximized="no" />
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20191023">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
@@ -101,8 +103,8 @@
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
         <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="none" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="yes" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="yes" borderEdge="yes" edge="no" edgeNbColumn="80" zoom="-5" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="200" topHeight="200" bottomHeight="200">
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44085" curr="0" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
