@@ -17,7 +17,7 @@
 			"scope": "lua",
 			"prefix": "annotateparagraphdatetime",
 			"body": [
-				"--[[\n\t\n\tCreated on $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE at $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND\n]]",
+				"--[==[\n\t\n\tCreated on $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE at $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND\n]==]",
 			],
 			"description": "A paragraph annotation with date and time"
 		},
@@ -110,6 +110,15 @@
 				"local apiId = ClientMgr:getApiId();",
 			],
 			"description": "local apiId = ClientMgr:getApiId();"
+		},
+
+		"env": {
+			"scope": "lua",
+			"prefix": "getenv",
+			"body": [
+				"local env = ClientMgr:getGameData(\"game_env\");",
+			],
+			"description": "local env = ClientMgr:getGameData(\"game_env\");"
 		},
 
 

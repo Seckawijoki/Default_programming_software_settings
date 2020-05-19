@@ -26,9 +26,18 @@
 			"scope": "cpp",
 			"prefix": "ifnandroid",
 			"body": [
-				"#if OGRE_PLATFORM != OGRE_PLATFORM_ANDROID\n\n#else\n\n#endif",
+				"#if OGRE_PLATFORM != OGRE_PLATFORM_ANDROID\n\n#else\n\n#endif//OGRE_PLATFORM != OGRE_PLATFORM_ANDROID",
 			],
 			"description": "#if OGRE_PLATFORM != OGRE_PLATFORM_ANDROID"
+		},
+
+		"ifnotiosplatform": {
+			"scope": "cpp",
+			"prefix": "ifnios",
+			"body": [
+				"#if OGRE_PLATFORM != OGRE_PLATFORM_APPLE\n\n#else\n\n#endif//OGRE_PLATFORM != OGRE_PLATFORM_APPLE",
+			],
+			"description": "#if OGRE_PLATFORM != OGRE_PLATFORM_APPLE"
 		},
 
 		"LOG_INFOinfo": {
@@ -38,6 +47,15 @@
 				"LOG_INFO(\"$CLIPBOARD(): $\");",
 			],
 			"description": "LOG_INFO(\"$CLIPBOARD(): $\");"
+		},
+
+		"LOG_WARNINGwarning": {
+			"scope": "cpp",
+			"prefix": "logw",
+			"body": [
+				"LOG_WARNING(\"$CLIPBOARD(): $\");",
+			],
+			"description": "LOG_WARNING(\"$CLIPBOARD(): $\");"
 		},
 
 		"LOG_INFOi": {
@@ -83,5 +101,32 @@
 				"LOG_INFO(\"$CLIPBOARD(): $1 = %llf\", $1);",
 			],
 			"description": "LOG_INFO(\"function(): var = %llf\", var)"
+		},
+
+		"annotate file": {
+			"scope": "cpp",
+			"prefix": "annotatefile",
+			"body": [
+				"//////////////////////////////////////////////////////////////////////////\n///\n/// @file     $TM_FILENAME\n/// @brief （本文件实现的功能的简述）\n///\n///（本文件实现的功能的详述）\n///\n/// @version 1.0      （版本声明）\n/// @author             seckawijoki\n/// @date                 $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\n///\n///\n///     修订说明：\n//////////////////////////////////////////////////////////////////////////",
+			],
+			"description": "annotate file"
+		},
+
+		"annotate class": {
+			"scope": "cpp",
+			"prefix": "annotateclass",
+			"body": [
+				"///     本类的功能：\n///\n///     设计类型\n///     功能描述",
+			],
+			"description": "annotate class"
+		},
+
+		"annotate function": {
+			"scope": "cpp",
+			"prefix": "annotatefunction",
+			"body": [
+				"///      详述  \n///      @param 参数描述\n///      @return 返回描述\n///      @see 关联函数()\n///      @note 注意",
+			],
+			"description": "annotate function"
 		},
 }
