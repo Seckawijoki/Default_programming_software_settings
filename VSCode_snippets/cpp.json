@@ -13,13 +13,31 @@
 	// 	"description": "Log output to console"
 	// }
 
+		"tododatetime" : {
+			"scope": "cpp",
+			"prefix": "todo",
+			"body": [
+				"//TODO: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND: ",
+			],
+			"description": "TODO with a datetime"
+		},
+
 		"ifandroidplatform": {
 			"scope": "cpp",
 			"prefix": "ifandroid",
 			"body": [
-				"#if OGRE_PLATFORM == OGRE_PLATFORM_ANDROID\n\n#else\n\n#endif//OGRE_PLATFORM == OGRE_PLATFORM_ANDROID",
+				"#ifdef ANDROID\n\n#else\n\n#endif//defined(ANDROID)",
 			],
-			"description": "#if OGRE_PLATFORM == OGRE_PLATFORM_ANDROID"
+			"description": "#ifdef ANDROID"
+		},
+
+		"ifdefinedplatform": {
+			"scope": "cpp",
+			"prefix": "ifplatform",
+			"body": [
+				"#if defined(SERVER)\n\n#elif defined(IOS)\n\n#elif defined(ANDROID)\n\n#else\n\n#endif",
+			],
+			"description": "#ifdef platforms"
 		},
 
 		"ifnotandroidplatform": {
@@ -103,6 +121,15 @@
 			"description": "LOG_INFO(\"function(): var = %llf\", var)"
 		},
 
+		"header": {
+			"scope": "cpp",
+			"prefix": "ndef",
+			"body": [
+				"#ifndef $1\n#define $1 1\n#endif//$1",
+			],
+			"description": ".h :#ifndef"
+		},
+
 		"annotate file": {
 			"scope": "cpp",
 			"prefix": "annotatefile",
@@ -116,7 +143,7 @@
 			"scope": "cpp",
 			"prefix": "annotateclass",
 			"body": [
-				"///     本类的功能：\n///\n///     设计类型\n///     功能描述",
+				"///     本类的功能：$1\n///\n///     设计类型\n///     功能描述",
 			],
 			"description": "annotate class"
 		},
@@ -125,8 +152,17 @@
 			"scope": "cpp",
 			"prefix": "annotatefunction",
 			"body": [
-				"///      详述  \n///      @param 参数描述\n///      @return 返回描述\n///      @see 关联函数()\n///      @note 注意",
+				"///      $1\n///      @param 参数描述\n///      @return 返回描述\n///      @see 关联函数()\n///      @note 注意",
 			],
 			"description": "annotate function"
+		},
+
+		"annotate member": {
+			"scope": "cpp",
+			"prefix": "annotatemember",
+			"body": [
+				"/*\n *\t$1\n */",
+			],
+			"description": "annotate member"
 		},
 }

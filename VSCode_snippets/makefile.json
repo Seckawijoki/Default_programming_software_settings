@@ -21,4 +21,13 @@
 		],
 		"description": "$(info $TM_FILENAME $CLIPBOARD : $($CLIPBOARD))"
 	},
+
+	"annotate block": {
+		"scope": "mk",
+		"prefix": "annotateblock",
+		"body": [
+			"# ================ $1 ================\n\n# ================ $1 ================",
+		],
+		"description": "annotate block"
+	},
 }
