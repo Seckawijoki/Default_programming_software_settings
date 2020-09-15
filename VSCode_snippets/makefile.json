@@ -17,9 +17,9 @@
 		"scope": "mk",
 		"prefix": "infov",
 		"body": [
-			"$(info $TM_FILENAME $CLIPBOARD : $($CLIPBOARD))",
+			"$(info $TM_DIRECTORY\\\\$TM_FILENAME $CLIPBOARD : $($CLIPBOARD))",
 		],
-		"description": "$(info $TM_FILENAME $CLIPBOARD : $($CLIPBOARD))"
+		"description": "$(info 文件完整路径  $复制的变量 : $($复制的变量))"
 	},
 
 	"annotate block": {
