@@ -197,10 +197,6 @@
 			"description": "LOG_INFO(\"function(): var = %llf\", var)"
 		},
 
-
-
-
-
 		"header": {
 			"scope": "cpp",
 			"prefix": "ndef",
@@ -242,6 +238,15 @@
 			"prefix": "annotatemember",
 			"body": [
 				"/**\n@brief\t$1\n */",
+			],
+			"description": "annotate member"
+		},
+
+		"annotate line": {
+			"scope": "cpp",
+			"prefix": "annotateline",
+			"body": [
+				"/*\n\t$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE：$1  \n\tcodeby： pengdapu\n*/",
 			],
 			"description": "annotate member"
 		},

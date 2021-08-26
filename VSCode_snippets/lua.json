@@ -53,7 +53,7 @@
 			"scope": "lua",
 			"prefix": "printlineclipboard",
 			"body": [
-				"print(\"$TM_FILENAME($TM_LINE_NUMBER): $CLIPBOARD = \", $CLIPBOARD);",
+				"print(\"$TM_FILENAME($TM_LINE_NUMBER): $CLIPBOARD = \" + $CLIPBOARD);",
 			],
 			"description": "Print with copy content."
 		},
@@ -62,7 +62,7 @@
 			"scope": "lua",
 			"prefix": "printlinevariable",
 			"body": [
-				"print(\"$TM_FILENAME($TM_LINE_NUMBER): $1 = \", $1);",
+				"print(\"$TM_FILENAME($TM_LINE_NUMBER): $1 = \" + $1);",
 			],
 			"description": "Print a value about to be being typed."
 		},
