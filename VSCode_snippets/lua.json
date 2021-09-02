@@ -7,127 +7,127 @@
 	// "Print to console": {
 	// 	"prefix": "log",
 	// 	"body": [
-	// 		"console.log('$1');",
+	// 		"console.log('$1');"
 	// 		"$2"
 	// 	],
 	// 	"description": "Log output to console"
 	// }
 
-		"annotateparagraphdatetime" : {
-			"scope": "lua",
-			"prefix": "annotateparagraphdatetime",
-			"body": [
-				"--[==[\n\t\n\tCreated on $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE at $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND\n]==]",
-			],
-			"description": "A paragraph annotation with date and time"
-		},
+	"annotateparagraphdatetime" : {
+		"scope": "lua",
+		"prefix": "annotateparagraphdatetime",
+		"body": [
+			"--[==[\n\t\n\tCreated on $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE at $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND\n]==]"
+		],
+		"description": "A paragraph annotation with date and time"
+	},
 
-		"todo" : {
-			"scope": "lua",
-			"prefix": "todo",
-			"body": [
-				"--$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE TODO : $1 ",
-			],
-			"description": "TODO:"
-		},
+	"todo" : {
+		"scope": "lua",
+		"prefix": "todo",
+		"body": [
+			"--$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE TODO : $1 "
+		],
+		"description": "TODO:"
+	},
 
-		"dateclock" : {
-			"scope": "lua",
-			"prefix": "dateclock",
-			"body": [
-				"--$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
-			],
-			"description": "A date clock time."
-		},
+	"dateclock" : {
+		"scope": "lua",
+		"prefix": "dateclock",
+		"body": [
+			"--$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND"
+		],
+		"description": "A date clock time."
+	},
 
-		"print0": {
-			"scope": "lua",
-			"prefix": "printlineinfo",
-			"body": [
-				"print(\"$TM_FILENAME($TM_LINE_NUMBER): $1\");",
-			],
-			"description": "Pure print with some self typing."
-		},
+	"print0": {
+		"scope": "lua",
+		"prefix": "printlineinfo",
+		"body": [
+			"print(\"$TM_FILENAME($TM_LINE_NUMBER): $1\");"
+		],
+		"description": "Pure print with some self typing."
+	},
 
-		"print1": {
-			"scope": "lua",
-			"prefix": "printlineclipboard",
-			"body": [
-				"print(\"$TM_FILENAME($TM_LINE_NUMBER): $CLIPBOARD = \" + $CLIPBOARD);",
-			],
-			"description": "Print with copy content."
-		},
+	"print1": {
+		"scope": "lua",
+		"prefix": "printlineclipboard",
+		"body": [
+			"print(\"$TM_FILENAME($TM_LINE_NUMBER): $CLIPBOARD = \" + $CLIPBOARD);"
+		],
+		"description": "Print with copy content."
+	},
 
-		"print2": {
-			"scope": "lua",
-			"prefix": "printlinevariable",
-			"body": [
-				"print(\"$TM_FILENAME($TM_LINE_NUMBER): $1 = \" + $1);",
-			],
-			"description": "Print a value about to be being typed."
-		},
+	"print2": {
+		"scope": "lua",
+		"prefix": "printlinevariable",
+		"body": [
+			"print(\"$TM_FILENAME($TM_LINE_NUMBER): $1 = \" + $1);"
+		],
+		"description": "Print a value about to be being typed."
+	},
 
-		"print3": {
-			"scope": "lua",
-			"prefix": "printfunctioninfo",
-			"body": [
-				"print(\"$CLIPBOARD(): $1\");",
-			],
-			"description": "Print the copied."
-		},
+	"print3": {
+		"scope": "lua",
+		"prefix": "printfunctioninfo",
+		"body": [
+			"print(\"$CLIPBOARD(): $1\");"
+		],
+		"description": "Print the copied."
+	},
 
-		"print4": {
-			"scope": "lua",
-			"prefix": "printfunctionvariable",
-			"body": [
-				"print(\"$CLIPBOARD(): $1 = \", $1);",
-			],
-			"description": "Print the copied with variable"
-		},
+	"print4": {
+		"scope": "lua",
+		"prefix": "printfunctionvariable",
+		"body": [
+			"print(\"$CLIPBOARD(): $1 = \", $1);"
+		],
+		"description": "Print the copied with variable"
+	},
 
-		"androidlocalize": {
-			"scope": "lua",
-			"prefix": "andrlocal",
-			"body": [
-				"local print = Android:Localize();",
-			],
-			"description": "local print = Android:Localize();"
-		},
+	"androidlocalize": {
+		"scope": "lua",
+		"prefix": "andrlocal",
+		"body": [
+			"local print = Android:Localize();"
+		],
+		"description": "local print = Android:Localize();"
+	},
 
-		"androidsituation": {
-			"scope": "lua",
-			"prefix": "androidsituation",
-			"body": [
-				"local print = Android:Localize(Android.SITUATION.$1);",
-			],
-			"description": "local print = Android:Localize(Android.SITUATION.$1);"
-		},
+	"androidsituation": {
+		"scope": "lua",
+		"prefix": "androidsituation",
+		"body": [
+			"local print = Android:Localize(Android.SITUATION.$1);"
+		],
+		"description": "local print = Android:Localize(Android.SITUATION.$1);"
+	},
 
-		"apiId": {
-			"scope": "lua",
-			"prefix": "getapi",
-			"body": [
-				"local apiId = ClientMgr:getApiId();",
-			],
-			"description": "local apiId = ClientMgr:getApiId();"
-		},
+	"apiId": {
+		"scope": "lua",
+		"prefix": "getapi",
+		"body": [
+			"local apiId = ClientMgr:getApiId();"
+		],
+		"description": "local apiId = ClientMgr:getApiId();"
+	},
 
-		"env": {
-			"scope": "lua",
-			"prefix": "getenv",
-			"body": [
-				"local env = ClientMgr:getGameData(\"game_env\");",
-			],
-			"description": "local env = ClientMgr:getGameData(\"game_env\");"
-		},
+	"env": {
+		"scope": "lua",
+		"prefix": "getenv",
+		"body": [
+			"local env = ClientMgr:getGameData(\"game_env\");"
+		],
+		"description": "local env = ClientMgr:getGameData(\"game_env\");"
+	},
 
 
-		"traceback": {
-			"scope": "lua",
-			"prefix": "traceback",
-			"body": [
-				"print(debug.traceback());",
-			],
-			"description": "print(debug.traceback());"
-		},
+	"traceback": {
+		"scope": "lua",
+		"prefix": "traceback",
+		"body": [
+			"print(debug.traceback());"
+		],
+		"description": "print(debug.traceback());"
+	}
 }
