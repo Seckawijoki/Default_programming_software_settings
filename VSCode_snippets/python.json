@@ -15,7 +15,7 @@
 
 	"pfi" : {
 		"scope": "py",
-		"prefix": "pfv",
+		"prefix": "pfi",
 		"body": [
 			"print('%s(): $1' % sys._getframe().f_code.co_name)",
 		],
