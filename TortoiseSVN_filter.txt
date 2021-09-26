@@ -1,0 +1,1 @@
+#*toLua.cpp #*tolua.cpp *.a *.so assets build .gradle .idea .vscode *.o *.lo *.la *.al .libs *.so.[0-9]* *.pyc *.pyo __pycache__ *.rej *~ #*# .#* .*.swp .DS_Store [Tt]humbs.db
