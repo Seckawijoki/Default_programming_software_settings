@@ -13,6 +13,33 @@
 	// 	"description": "Log output to console"
 	// }
 
+		"tolua_exports" : {
+			"scope": "cpp",
+			"prefix": "lx",
+			"body": [
+				"//tolua_exports",
+			],
+			"description": "//tolua_exports"
+		},
+
+		"tolua_begin" : {
+			"scope": "cpp",
+			"prefix": "lb",
+			"body": [
+				"\t//tolua_begin",
+			],
+			"description": "//tolua_begin"
+		},
+
+		"tolua_end" : {
+			"scope": "cpp",
+			"prefix": "le",
+			"body": [
+				"\t//tolua_end",
+			],
+			"description": "//tolua_end"
+		},
+
 		"tododatetime" : {
 			"scope": "cpp",
 			"prefix": "todo",
@@ -201,7 +228,7 @@
 			"scope": "cpp",
 			"prefix": "ndef",
 			"body": [
-				"#ifndef $1\n#define $1 1\n#endif//$1",
+				"#ifndef __${TM_FILENAME_BASE}_h__\n#define __${TM_FILENAME_BASE}_h__ 1\n#endif//__${TM_FILENAME_BASE}_h__",
 			],
 			"description": ".h :#ifndef"
 		},
