@@ -12,11 +12,20 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-		"message": {
+		"message variable": {
 			"scope": "CMakeLists.txt",
 			"prefix": "msgv",
 			"body": [
 				"message(STATUS \"$CLIPBOARD = ${$CLIPBOARD}\")",
+			],
+			"description": "Print the variable"
+		},
+
+		"message": {
+			"scope": "CMakeLists.txt",
+			"prefix": "msg",
+			"body": [
+				"message(STATUS \"$1\")",
 			],
 			"description": "Print the variable"
 		},

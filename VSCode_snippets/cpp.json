@@ -121,10 +121,6 @@
 			"description": "#if OGRE_PLATFORM != OGRE_PLATFORM_APPLE"
 		},
 
-
-
-
-
 		"LOG_DEBUG": {
 			"scope": "cpp",
 			"prefix": "logd",
