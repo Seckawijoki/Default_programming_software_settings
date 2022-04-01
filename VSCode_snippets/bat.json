@@ -21,4 +21,15 @@
 		],
 		"description": "echo variable = !variable!"
 	},
+
+	"head" : {
+		"scope": "bat",
+		"prefix": "head",
+		"body": [
+			"@echo off",
+			"setlocal EnableDelayedExpansion",
+			"",
+		],
+		"description": "@echo off"
+	},
 }
