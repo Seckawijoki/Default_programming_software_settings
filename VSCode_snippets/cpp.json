@@ -58,6 +58,15 @@
 			"description": "#if defined(ANDROID)"
 		},
 
+		"ifed": {
+			"scope": "cpp",
+			"prefix": "ifed",
+			"body": [
+				"#if defined(BUILD_MINI_EDITOR_APP)\n$1\n#endif",
+			],
+			"description": "#if defined(ANDROID)"
+		},
+
 		"ifandroidplatform": {
 			"scope": "cpp",
 			"prefix": "ifandroidp",
@@ -121,103 +130,49 @@
 			"description": "#if OGRE_PLATFORM != OGRE_PLATFORM_APPLE"
 		},
 
-		"LOG_DEBUG": {
+		"LogStringMsg": {
 			"scope": "cpp",
 			"prefix": "logd",
 			"body": [
-				"LOG_DEBUG(\"$CLIPBOARD $1\");",
+				"LogStringMsg(\"$CLIPBOARD $1\");",
 			],
-			"description": "LOG_DEBUG(\"$CLIPBOARD\");"
+			"description": "LogStringMsg(\"$CLIPBOARD\");"
 		},
 
-		"LOG_INFO": {
-			"scope": "cpp",
-			"prefix": "logi",
-			"body": [
-				"LOG_INFO(\"$CLIPBOARD $1\");",
-			],
-			"description": "LOG_INFO(\"$CLIPBOARD\");"
-		},
-
-		"LOG_WARNING": {
-			"scope": "cpp",
-			"prefix": "logw",
-			"body": [
-				"LOG_WARNING(\"$CLIPBOARD\");",
-			],
-			"description": "LOG_WARNING(\"$CLIPBOARD\");"
-		},
-
-		"LOG_DEBUGdv": {
+		"LogStringMsg dv": {
 			"scope": "cpp",
 			"prefix": "logdv",
 			"body": [
-				"LOG_DEBUG(\"$1 = %$2\", $1);",
+				"LogStringMsg(\"$1 = %$2\", $1);",
 			],
-			"description": "LOG_DEBUG(\"var = %?\");"
+			"description": "LogStringMsg(\"var = %?\");"
 		},
 
-		"LOG_DEBUGdv2": {
+		"LogStringMsg dv2": {
 			"scope": "cpp",
 			"prefix": "logdv2",
 			"body": [
-				"LOG_DEBUG(\"$1 = %$2 | $3 = %$4 \", $1, $3);",
+				"LogStringMsg(\"$1 = %$2 | $3 = %$4 \", $1, $3);",
 			],
-			"description": "LOG_DEBUG(\"var = %? | var2 = %?\");"
+			"description": "LogStringMsg(\"var = %? | var2 = %?\");"
 		},
 
-		"LOG_DEBUGdv3": {
+		"LogStringMsg dv3": {
 			"scope": "cpp",
 			"prefix": "logdv3",
 			"body": [
-				"LOG_DEBUG(\"$1 = %$2 | $3 = %$4 | $5 = %$6 \", $1, $3, $5);",
+				"LogStringMsg(\"$1 = %$2 | $3 = %$4 | $5 = %$6 \", $1, $3, $5);",
 			],
-			"description": "LOG_DEBUG(\"var = %? | var2 = %? | var3 = %?\");"
+			"description": "LogStringMsg(\"var = %? | var2 = %? | var3 = %?\");"
 		},
 
-		"LOG_INFOi": {
+		"LogStringMsg dvec3": {
 			"scope": "cpp",
-			"prefix": "logii",
+			"prefix": "logdvec3",
 			"body": [
-				"LOG_INFO(\"$CLIPBOARD $1 = %d\", $1);",
+				"LogStringMsg(\"$1 = (%$2, %$2, %$2)\", $1.x, $1.y, $1.z);",
 			],
-			"description": "LOG_INFO(\"function(): var = %d\", var)"
-		},
-
-		"LOG_INFOs": {
-			"scope": "cpp",
-			"prefix": "logis",
-			"body": [
-				"LOG_INFO(\"$CLIPBOARD $1 = %s\", $1);",
-			],
-			"description": "LOG_INFO(\"function(): var = %s\", var)"
-		},
-
-		"LOG_INFOx": {
-			"scope": "cpp",
-			"prefix": "logix",
-			"body": [
-				"LOG_INFO(\"$CLIPBOARD $1 = %x\", $1);",
-			],
-			"description": "LOG_INFO(\"function(): var = %x\", var)"
-		},
-
-		"LOG_INFOf": {
-			"scope": "cpp",
-			"prefix": "logif",
-			"body": [
-				"LOG_INFO(\"$CLIPBOARD $1 = %f\", $1);",
-			],
-			"description": "LOG_INFO(\"function(): var = %f\", var)"
-		},
-
-		"LOG_INFOdb": {
-			"scope": "cpp",
-			"prefix": "logidb",
-			"body": [
-				"LOG_INFO(\"$CLIPBOARD $1 = %llf\", $1);",
-			],
-			"description": "LOG_INFO(\"function(): var = %llf\", var)"
+			"description": "LogStringMsg(\"v = (%?, %?, %?)\");"
 		},
 
 		"header": {
@@ -235,7 +190,8 @@
 			"scope": "cpp",
 			"prefix": "clsdef",
 			"body": [
-				"class ${TM_FILENAME_BASE} {",
+				"class ${TM_FILENAME_BASE}",
+				"{",
 				"public:",
 				"\t${TM_FILENAME_BASE}();",
 				"\t~${TM_FILENAME_BASE}();",
@@ -247,18 +203,82 @@
 			"description": "simple class definition"
 		},
 
+		"Studio api header": {
+			"scope": "cpp",
+			"prefix": "apiheader",
+			"body": [
+				"#ifndef __${TM_FILENAME_BASE}_h__",
+				"#define __${TM_FILENAME_BASE}_h__ 1",
+				"\n",
+				"#include \"api.h\"",
+				"\n",
+				"#if defined(${TM_FILENAME_BASE})",
+				"# define ${TM_FILENAME_BASE}_EXPORT Q_DECL_EXPORT",
+				"#else",
+				"# define ${TM_FILENAME_BASE}_EXPORT Q_DECL_IMPORT",
+				"#endif",
+				"\n",
+				"namespace Studio",
+				"{",
+				"//-------------------------- ${TM_FILENAME_BASE} ---------------------------------",
+				"//---------------------------------------------------------------------------",
+				"\tclass ${TM_FILENAME_BASE}_EXPORT ${TM_FILENAME_BASE}Manager : public QObject",
+				"\t{",
+				"\t\tQ_OBJECT;",
+				"\tpublic:",
+				"",
+				"\tprotected:",
+				"\t\tvirtual ~${TM_FILENAME_BASE}Manager() {}",
+				"\tprivate:",
+				"",
+				"\t};",
+				"}",
+				"\n",
+				"#endif//__${TM_FILENAME_BASE}_h__",
+			],
+			"description": "Studio api header"
+		},
+
+		"Studio manager header": {
+			"scope": "cpp",
+			"prefix": "managerheader",
+			"body": [
+				"#ifndef __${TM_FILENAME_BASE}_h__",
+				"#define __${TM_FILENAME_BASE}_h__ 1",
+				"",
+				"#include \"api.h\"",
+				"#include \"${TM_FILENAME_BASE}.h\"",
+				"",
+				"//-------------------------- ${TM_FILENAME_BASE} ---------------------------------",
+				"//---------------------------------------------------------------------------",
+				"class ${TM_FILENAME_BASE} : public Studio::${TM_FILENAME_BASE}",
+				"{",
+				"\tQ_OBJECT;",
+				"public:",
+				"\t${TM_FILENAME_BASE}();",
+				"protected:",
+				"\tvirtual ~${TM_FILENAME_BASE}();",
+				"private:",
+				"",
+				"};",
+				"",
+				"#endif//__${TM_FILENAME_BASE}_h__",
+			],
+			"description": "Studio api header"
+		},
+
 		"simple class implementation": {
 			"scope": "cpp",
 			"prefix": "clsimp",
 			"body": [
 				"#include \"${TM_FILENAME_BASE}.h\"",
+				"\n",
 				"${TM_FILENAME_BASE}::${TM_FILENAME_BASE}()",
 				"{",
-				"",
 				"}",
+				"\n",
 				"${TM_FILENAME_BASE}::~${TM_FILENAME_BASE}()",
 				"{",
-				"",
 				"}",
 			],
 

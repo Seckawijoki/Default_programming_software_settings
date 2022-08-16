@@ -1,0 +1,45 @@
+{
+    "workbench.colorTheme": "Monokai Dimmed",
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Edlo",
+    "editor.inlayHints.fontFamily": "Ubuntu",
+    "workbench.sideBar.location": "right",
+    "window.menuBarVisibility": "compact",
+    "workbench.iconTheme": "vscode-simpler-icons",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.automationShell.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "path": [
+                "C:\\Git\\git-bash.exe"
+            ],
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "[bat]": {
+        "editor.tabSize": 2
+    },
+    "csharp.suppressDotnetInstallWarning": true,
+    "files.encoding": "gb2312",
+    "files.autoGuessEncoding": true
+}
